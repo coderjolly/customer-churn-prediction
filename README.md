@@ -69,3 +69,15 @@ A Voting based classifier was also implemented which is an ensemble model using 
   | Voting Classifier (Ensemble of Gradient Boosting, Logistic Regression & Adaboost Classifier)                | `0.80`    | `0.79`    | `0.80`    |
 
 ## Conclusion
+
+Finally, all algorithms are compared with their accuracies and it can be seen that the best predicting customer churn model is the AdaBoost model which had the highest accuracy at 79.66%.
+
+  | Models                 | Accuracy   |
+  |------------------------|------------|
+  | Logistic Regression    | `0.793839` |
+  | Support Vector Machine | `0.790521` |
+  | KNN Classifier         | `0.748341` |	
+  | Decision Trees         | `0.718009` |
+  | Random Forest          | `0.774408` | 
+  | Adaboost               | `0.796682` |
+  | Gradient Boosting      | `0.790995` |
